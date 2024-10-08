@@ -15,7 +15,7 @@ public class UserService {
 
     public UserService(UserRepository userRepository, UserProducer userProducer) {
         this.userRepository = userRepository;
-        this.userProducer = new UserProducer();
+        this.userProducer = userProducer;
     }
 
 
